@@ -1,5 +1,5 @@
 {
-    "name": "phucnguyenvn/laravel-eloquen-repository",
+    "name": "phucnguyenvn/laravel-eloquent-repository",
     "description": "Repository pattern for Eloquent ORM",
     "keywords": ["laravel", "eloquent", "repository"],
     "license": "BSD-3-Clause",
