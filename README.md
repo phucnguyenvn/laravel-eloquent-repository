@@ -35,7 +35,7 @@ class UserRepository extends EloquentRepository
     }
 
     protected function model() {
-        return \App\User::class;
+        return User::class;
     }
 }
 ```
@@ -57,7 +57,7 @@ class UserRepository extends EloquentRepository
     }
 
     protected function model() {
-        return \App\User::class;
+        return User::class;
     }
     
     public function getAllUser(){
