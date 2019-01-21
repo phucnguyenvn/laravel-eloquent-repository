@@ -33,10 +33,6 @@ class UserRepository extends EloquentRepository
     public function __construct(User $user){
         parent::__construct($user);
     }
-
-    protected function model() {
-        return User::class;
-    }
 }
 ```
 
@@ -54,10 +50,6 @@ class UserRepository extends EloquentRepository
      */
     public function __construct(User $user){
         parent::__construct($user);
-    }
-
-    protected function model() {
-        return User::class;
     }
     
     public function getAllUser(){
