@@ -1,0 +1,30 @@
+{
+    "name": "phucnguyenvn/laravel-eloquen-repository",
+    "description": "Repository pattern for Eloquent ORM",
+    "keywords": ["laravel", "eloquent", "repository"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Phuc Nguyen",
+            "email": "hong.phuc@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/config": "^5.1",
+        "illuminate/database": "^5.1",
+        "illuminate/support": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "phucnguyenvn\\EloquentRepository\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "phucnguyenvn\\EloquentRepository\\Providers\\RepositoryServiceProvider"
+            ]
+        }
+    }
+}
